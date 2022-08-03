@@ -1,0 +1,32 @@
+program fun ::
+var X,Y,Z,w,k : int;
+var E: bool;
+{
+    X := 5;
+    Y := ~7;
+
+    while(X>Y) do{
+        X := X-1;
+    } endwh;
+
+    if (X = Y) then 
+    {
+        write X;
+    } else 
+    {
+        write Z;
+    } endif;
+    
+    X := Y + Z*w;
+
+    read k ;
+
+    if (X > Y) then 
+    {
+
+    } else 
+    {
+
+    } endif;
+
+}
